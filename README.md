@@ -3,6 +3,7 @@
 ## Краткое содержание
 
 - [Алгоритмы и структуры данных](algorithms/README.md)
+- [Математика](mathematics/README.md)
 
 ## Подробное содержание
 
@@ -16,3 +17,10 @@
 6. [Графы](algorithms/docs/sprint-6/README.md)
 7. [Жадные алгоритмы и динамическое программирование](algorithms/docs/sprint-7/README.md)
 8. [Алгоритмы на строках](algorithms/docs/sprint-8/README.md)
+
+### [Математика](mathematics/README.md)
+
+1. [Дискретная математика](mathematics/docs/sprint-1/README.md)
+2. [Комбинаторика](mathematics/docs/sprint-2/README.md)
+3. [Теория графов](mathematics/docs/sprint-3/README.md)
+4. [Теория вероятностей](mathematics/docs/sprint-4/README.md)
