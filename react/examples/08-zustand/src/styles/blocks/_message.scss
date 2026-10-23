@@ -1,0 +1,18 @@
+.message {
+  padding: 10px 14px;
+  border-radius: var(--radius-small);
+  background: var(--color-warning-soft);
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-warning);
+
+  &_error {
+    background: var(--color-danger-soft);
+    color: var(--color-danger);
+  }
+
+  &_success {
+    background: var(--color-success-soft);
+    color: var(--color-success);
+  }
+}

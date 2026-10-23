@@ -1,0 +1,23 @@
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  &__summary {
+    padding: 10px 14px;
+    border-radius: var(--radius-small);
+    background: var(--color-lemon-soft);
+    font-weight: 600;
+  }
+
+  &__actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  &__action {
+    flex: 1 1 auto;
+  }
+}

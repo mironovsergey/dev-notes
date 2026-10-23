@@ -1,0 +1,85 @@
+.cart-line {
+  display: grid;
+  grid-template-columns: auto auto minmax(0, 1fr) auto;
+  grid-template-areas:
+    'handle thumb title price'
+    'controls controls controls controls';
+  gap: 8px 12px;
+  align-items: center;
+  padding: 8px 0;
+
+  @media (min-width: 480px) {
+    grid-template-areas:
+      'handle thumb title price'
+      'handle thumb controls controls';
+  }
+
+  &__thumb {
+    grid-area: thumb;
+    align-self: start;
+    width: 56px;
+    height: 56px;
+    padding: 6px;
+    border-radius: var(--radius-small);
+    background: var(--color-pink-soft);
+    object-fit: contain;
+  }
+
+  &__title {
+    grid-area: title;
+    font-size: 15px;
+  }
+
+  &__price {
+    grid-area: price;
+    align-self: start;
+    font-weight: 700;
+    white-space: nowrap;
+  }
+
+  &__controls {
+    display: flex;
+    grid-area: controls;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &_postponed {
+    opacity: 0.7;
+  }
+
+  &_dragging {
+    opacity: 0.4;
+  }
+
+  &_overlay {
+    padding: 8px 12px;
+    border: 2px solid var(--color-accent);
+    border-radius: var(--radius-small);
+    background: var(--color-surface);
+    box-shadow: var(--shadow);
+    cursor: grabbing;
+  }
+
+  &__handle {
+    grid-area: handle;
+    align-self: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: transparent;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--color-muted);
+    cursor: grab;
+    touch-action: none;
+
+    &:hover {
+      background: var(--color-pink-soft);
+      color: var(--color-accent);
+    }
+  }
+}

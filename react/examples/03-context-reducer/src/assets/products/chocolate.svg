@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Шоколад">
+  <g transform="rotate(-12 100 100)">
+    <rect x="40" y="30" width="120" height="140" rx="12" fill="#c9a7ff"/>
+    <rect x="40" y="30" width="120" height="76" rx="12" fill="#ff5fa8"/>
+    <rect x="40" y="88" width="120" height="82" rx="10" fill="#7a4b33"/>
+    <g fill="#5d3725">
+      <rect x="50" y="98" width="30" height="30" rx="5"/><rect x="85" y="98" width="30" height="30" rx="5"/><rect x="120" y="98" width="30" height="30" rx="5"/>
+      <rect x="50" y="132" width="30" height="30" rx="5"/><rect x="85" y="132" width="30" height="30" rx="5"/><rect x="120" y="132" width="30" height="30" rx="5"/>
+    </g>
+    <text x="100" y="72" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="700" fill="#ffffff">ЛАВКА</text>
+  </g>
+</svg>

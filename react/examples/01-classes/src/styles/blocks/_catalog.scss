@@ -1,0 +1,19 @@
+// Layout-блок секции каталога: заголовок, панель фильтров и сетка товаров лежат в его слотах.
+.catalog {
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+
+  &__title {
+    font-size: 26px;
+    font-weight: 800;
+  }
+
+  &__status {
+    padding: 32px 24px;
+    border-radius: var(--radius);
+    background: rgb(255 255 255 / 55%);
+    color: var(--color-muted);
+    text-align: center;
+  }
+}

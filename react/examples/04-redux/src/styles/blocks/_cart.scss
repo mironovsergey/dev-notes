@@ -1,0 +1,56 @@
+@use '../mixins' as *;
+
+// Layout-блок панели корзины; каждый виджет (позиции, форма промокода, доставка, итоги) лежит в своем слоте.
+.cart {
+  @include surface;
+
+  display: flex;
+  flex-direction: column;
+  gap: var(--gap);
+  padding: 20px;
+
+  &__title {
+    font-size: 24px;
+    font-weight: 800;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    color: var(--color-muted);
+  }
+
+  &__items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  &__empty {
+    padding: 20px;
+    border-radius: var(--radius-small);
+    background: var(--color-lilac-soft);
+    color: var(--color-muted);
+    text-align: center;
+  }
+
+  &__section {
+    padding-top: var(--gap);
+    border-top: 2px dashed var(--color-line);
+  }
+
+  &__hint {
+    font-size: 13px;
+    color: var(--color-muted);
+  }
+
+  &__items_over {
+    border-radius: var(--radius-small);
+    outline: 3px dashed var(--color-accent);
+    outline-offset: 4px;
+  }
+
+  &_over {
+    outline: 3px dashed var(--color-accent);
+    outline-offset: 4px;
+  }
+}

@@ -1,0 +1,23 @@
+// Точка входа стилей: `main.tsx` импортирует этот файл один раз.
+@use 'tokens';
+@use 'base';
+@use 'blocks/page';
+@use 'blocks/header';
+@use 'blocks/catalog';
+@use 'blocks/toolbar';
+@use 'blocks/products';
+@use 'blocks/product-card';
+@use 'blocks/cart';
+@use 'blocks/cart-line';
+@use 'blocks/stepper';
+@use 'blocks/promo-form';
+@use 'blocks/delivery';
+@use 'blocks/totals';
+@use 'blocks/button';
+@use 'blocks/input';
+@use 'blocks/field';
+@use 'blocks/message';
+@use 'blocks/modal';
+@use 'blocks/checkout-form';
+@use 'blocks/order-done';
+@use 'blocks/error-fallback';

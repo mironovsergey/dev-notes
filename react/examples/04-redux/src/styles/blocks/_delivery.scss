@@ -1,0 +1,57 @@
+.delivery {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+  &__title {
+    padding: 0;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  &__option {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    grid-template-areas:
+      'radio name'
+      'radio cost';
+    align-items: center;
+    gap: 2px 10px;
+    padding: 8px 12px;
+    border-radius: var(--radius-small);
+    cursor: pointer;
+
+    &:hover {
+      background: var(--color-pink-soft);
+    }
+
+    @media (min-width: 480px) {
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      grid-template-areas: 'radio name cost';
+    }
+  }
+
+  &__radio {
+    grid-area: radio;
+    margin: 0;
+    accent-color: var(--color-accent);
+  }
+
+  &__name {
+    grid-area: name;
+  }
+
+  &__cost {
+    grid-area: cost;
+    font-size: 14px;
+    color: var(--color-muted);
+
+    @media (min-width: 480px) {
+      font-size: 16px;
+      text-align: right;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Макароны">
+  <g transform="translate(0 30)">
+    <ellipse cx="100" cy="128" rx="60" ry="18" fill="#6fe3d4"/>
+    <rect x="42" y="118" width="116" height="14" rx="7" fill="#fff9e6"/>
+    <ellipse cx="100" cy="116" rx="60" ry="18" fill="#6fe3d4"/>
+  </g>
+  <g transform="translate(0 -10)">
+    <ellipse cx="100" cy="112" rx="60" ry="18" fill="#c9a7ff"/>
+    <rect x="42" y="102" width="116" height="14" rx="7" fill="#fff0f6"/>
+    <ellipse cx="100" cy="100" rx="60" ry="18" fill="#c9a7ff"/>
+  </g>
+  <g transform="translate(0 -50)">
+    <ellipse cx="100" cy="96" rx="60" ry="18" fill="#ff7fb5"/>
+    <rect x="42" y="86" width="116" height="14" rx="7" fill="#fff9e6"/>
+    <ellipse cx="100" cy="84" rx="60" ry="18" fill="#ff7fb5"/>
+    <ellipse cx="78" cy="78" rx="14" ry="4" fill="#ffffff" opacity="0.6"/>
+  </g>
+</svg>

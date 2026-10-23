@@ -1,0 +1,15 @@
+.order-done {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  &__number {
+    align-self: flex-start;
+    padding: 8px 16px;
+    border-radius: var(--radius-pill);
+    background: var(--color-mint-soft);
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--color-success);
+  }
+}

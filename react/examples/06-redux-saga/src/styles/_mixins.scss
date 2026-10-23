@@ -1,0 +1,31 @@
+@mixin surface {
+  border: 2px solid #ffffff;
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-soft);
+}
+
+@mixin control {
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 2px solid var(--color-line);
+  border-radius: var(--radius-small);
+  background: #ffffff;
+  transition: border-color 0.15s;
+
+  &:hover {
+    border-color: var(--color-pink);
+  }
+}
+
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}

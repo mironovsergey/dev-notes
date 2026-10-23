@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Мороженое">
+  <path d="M64 108 h72 l-36 84 z" fill="#f3c07a"/>
+  <g stroke="#d9a35c" stroke-width="3">
+    <path d="M70 120 l52 44 M78 140 l30 30 M130 120 l-52 44 M122 140 l-30 30"/>
+  </g>
+  <circle cx="100" cy="104" r="34" fill="#ff7fb5"/>
+  <circle cx="82" cy="78" r="30" fill="#6fe3d4"/>
+  <circle cx="120" cy="72" r="30" fill="#fff0f6"/>
+  <circle cx="100" cy="50" r="26" fill="#ffe066"/>
+  <circle cx="100" cy="24" r="8" fill="#e8306f"/>
+  <ellipse cx="108" cy="42" rx="8" ry="4" fill="#ffffff" opacity="0.6"/>
+</svg>
