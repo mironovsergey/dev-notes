@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Кейк-попсы">
+  <g stroke="#fff6d6" stroke-width="8" stroke-linecap="round">
+    <path d="M58 92 v92 M100 70 v114 M142 92 v92"/>
+  </g>
+  <circle cx="58" cy="78" r="28" fill="#6fe3d4"/>
+  <circle cx="100" cy="56" r="30" fill="#ff5fa8"/>
+  <circle cx="142" cy="78" r="28" fill="#ffe066"/>
+  <g stroke-width="4" stroke-linecap="round">
+    <path d="M46 70 l8 -4 M62 90 l8 -2" stroke="#ff5fa8"/>
+    <path d="M90 44 l8 -3 M104 68 l8 -3 M88 62 l6 5" stroke="#ffe066"/>
+    <path d="M132 68 l8 -2 M146 92 l8 -3" stroke="#c9a7ff"/>
+  </g>
+  <g fill="#ffffff" opacity="0.55">
+    <ellipse cx="48" cy="66" rx="8" ry="4"/><ellipse cx="90" cy="42" rx="9" ry="4"/><ellipse cx="132" cy="66" rx="8" ry="4"/>
+  </g>
+</svg>

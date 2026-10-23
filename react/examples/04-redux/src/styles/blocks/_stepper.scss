@@ -1,0 +1,35 @@
+.stepper {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px;
+  border: 2px solid var(--color-line);
+  border-radius: var(--radius-pill);
+  background: #ffffff;
+
+  &__button {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    border-radius: 50%;
+    background: var(--color-mint-soft);
+    font-weight: 700;
+    color: var(--color-success);
+    cursor: pointer;
+
+    &:hover {
+      background: var(--color-mint);
+    }
+
+    &:disabled {
+      background: transparent;
+      color: var(--color-muted);
+      cursor: default;
+    }
+  }
+
+  &__value {
+    min-width: 32px;
+    font-weight: 700;
+    text-align: center;
+  }
+}

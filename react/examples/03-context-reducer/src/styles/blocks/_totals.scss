@@ -1,0 +1,34 @@
+.totals {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+
+    &_discount {
+      color: var(--color-success);
+    }
+
+    &_total {
+      margin-top: 4px;
+      padding: 12px 14px;
+      border-radius: var(--radius-small);
+      background: var(--color-lemon-soft);
+      font-size: 20px;
+      font-weight: 800;
+    }
+  }
+
+  &__label {
+    margin: 0;
+  }
+
+  &__value {
+    margin: 0;
+    white-space: nowrap;
+  }
+}

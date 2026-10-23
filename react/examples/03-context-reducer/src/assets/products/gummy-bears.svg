@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Мармеладные мишки">
+  <g fill="#6fe3d4" opacity="0.92" transform="translate(100 70)">
+    <circle cx="0" cy="-30" r="20"/>
+    <circle cx="-16" cy="-44" r="8"/>
+    <circle cx="16" cy="-44" r="8"/>
+    <rect x="-20" y="-14" width="40" height="44" rx="16"/>
+    <circle cx="-24" cy="-2" r="8"/>
+    <circle cx="24" cy="-2" r="8"/>
+    <circle cx="-12" cy="30" r="9"/>
+    <circle cx="12" cy="30" r="9"/>
+  </g>
+  <g fill="#ff5fa8" opacity="0.92" transform="translate(60 118)">
+    <circle cx="0" cy="-30" r="20"/>
+    <circle cx="-16" cy="-44" r="8"/>
+    <circle cx="16" cy="-44" r="8"/>
+    <rect x="-20" y="-14" width="40" height="44" rx="16"/>
+    <circle cx="-24" cy="-2" r="8"/>
+    <circle cx="24" cy="-2" r="8"/>
+    <circle cx="-12" cy="30" r="9"/>
+    <circle cx="12" cy="30" r="9"/>
+  </g>
+  <g fill="#ffe066" opacity="0.92" transform="translate(140 118)">
+    <circle cx="0" cy="-30" r="20"/>
+    <circle cx="-16" cy="-44" r="8"/>
+    <circle cx="16" cy="-44" r="8"/>
+    <rect x="-20" y="-14" width="40" height="44" rx="16"/>
+    <circle cx="-24" cy="-2" r="8"/>
+    <circle cx="24" cy="-2" r="8"/>
+    <circle cx="-12" cy="30" r="9"/>
+    <circle cx="12" cy="30" r="9"/>
+  </g>
+  <g fill="#ffffff" opacity="0.6">
+    <ellipse cx="92" cy="30" rx="6" ry="3"/>
+    <ellipse cx="52" cy="78" rx="6" ry="3"/>
+    <ellipse cx="132" cy="78" rx="6" ry="3"/>
+  </g>
+</svg>

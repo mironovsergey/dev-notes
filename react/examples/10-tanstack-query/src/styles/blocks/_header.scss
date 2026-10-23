@@ -1,0 +1,59 @@
+.header {
+  background: rgb(255 250 253 / 88%);
+  box-shadow: var(--shadow-soft);
+  backdrop-filter: blur(10px);
+
+  &__ribbon {
+    height: 8px;
+    background: var(--stripes);
+  }
+
+  &__inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px var(--gap);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px var(--gap);
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__mark {
+    flex: 0 0 auto;
+    width: 40px;
+    height: 40px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    background: var(--stripes);
+    box-shadow: 0 4px 10px rgb(216 27 96 / 25%);
+  }
+
+  &__logo {
+    font-size: 24px;
+    font-weight: 800;
+    letter-spacing: 0.02em;
+    color: var(--color-accent);
+  }
+
+  &__subtitle {
+    font-size: 14px;
+    color: var(--color-muted);
+  }
+
+  &__counter {
+    padding: 6px 14px;
+    border-radius: var(--radius-pill);
+    background: var(--color-lemon);
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--color-text);
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Леденец">
+  <defs>
+    <clipPath id="c"><circle cx="100" cy="82" r="58"/></clipPath>
+  </defs>
+  <rect x="94" y="130" width="12" height="62" rx="6" fill="#fff6d6"/>
+  <circle cx="100" cy="82" r="60" fill="#ff5fa8"/>
+  <g clip-path="url(#c)" fill="none" stroke-width="14" stroke-linecap="round">
+    <path d="M100 82 m0 0 a6 6 0 0 1 6 6 a12 12 0 0 1 -12 12 a18 18 0 0 1 -18 -18 a24 24 0 0 1 24 -24 a30 30 0 0 1 30 30 a36 36 0 0 1 -36 36 a42 42 0 0 1 -42 -42 a48 48 0 0 1 48 -48 a54 54 0 0 1 54 54" stroke="#ffe066"/>
+    <path d="M100 82 m0 0 a6 6 0 0 1 6 6 a12 12 0 0 1 -12 12 a18 18 0 0 1 -18 -18 a24 24 0 0 1 24 -24 a30 30 0 0 1 30 30 a36 36 0 0 1 -36 36 a42 42 0 0 1 -42 -42 a48 48 0 0 1 48 -48 a54 54 0 0 1 54 54" stroke="#6fe3d4" stroke-width="5" stroke-dasharray="12 18"/>
+  </g>
+  <circle cx="100" cy="82" r="60" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <ellipse cx="78" cy="56" rx="14" ry="8" fill="#ffffff" opacity="0.55" transform="rotate(-30 78 56)"/>
+</svg>

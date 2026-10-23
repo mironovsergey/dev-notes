@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Карамельная трость">
+  <defs>
+    <clipPath id="cane"><path d="M62 180 v-110 a38 38 0 0 1 76 0 v14 h-24 v-14 a14 14 0 0 0 -28 0 v110 z"/></clipPath>
+  </defs>
+  <path d="M62 180 v-110 a38 38 0 0 1 76 0 v14 h-24 v-14 a14 14 0 0 0 -28 0 v110 z" fill="#fff6f9"/>
+  <g clip-path="url(#cane)" stroke="#ff5fa8" stroke-width="12">
+    <path d="M40 60 l60 -40 M40 90 l90 -60 M40 120 l110 -70 M40 150 l110 -70 M40 180 l110 -70 M40 210 l110 -70 M70 210 l90 -60"/>
+  </g>
+  <g clip-path="url(#cane)" stroke="#6fe3d4" stroke-width="4">
+    <path d="M40 75 l80 -50 M40 105 l110 -70 M40 135 l110 -70 M40 165 l110 -70 M40 195 l110 -70"/>
+  </g>
+  <path d="M62 180 v-110 a38 38 0 0 1 76 0 v14 h-24 v-14 a14 14 0 0 0 -28 0 v110 z" fill="none" stroke="#ffffff" stroke-width="3"/>
+</svg>

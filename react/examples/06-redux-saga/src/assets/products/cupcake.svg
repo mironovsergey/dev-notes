@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Капкейк">
+  <path d="M52 108 h96 l-12 74 a10 10 0 0 1 -10 9 h-52 a10 10 0 0 1 -10 -9 z" fill="#ffb3d1"/>
+  <path d="M62 108 v70 M82 108 v78 M100 108 v80 M118 108 v78 M138 108 v70" stroke="#ff7fb5" stroke-width="4" stroke-linecap="round"/>
+  <path d="M48 110 q52 -14 104 0" fill="none" stroke="#ff5fa8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="100" cy="86" r="34" fill="#fff0f6"/>
+  <circle cx="72" cy="94" r="24" fill="#fff0f6"/>
+  <circle cx="128" cy="94" r="24" fill="#fff0f6"/>
+  <circle cx="100" cy="58" r="22" fill="#fff0f6"/>
+  <g stroke-width="5" stroke-linecap="round">
+    <path d="M70 76 l8 -4" stroke="#6fe3d4"/>
+    <path d="M118 66 l9 3" stroke="#ffe066"/>
+    <path d="M88 100 l9 -2" stroke="#c9a7ff"/>
+    <path d="M132 104 l6 7" stroke="#ff5fa8"/>
+    <path d="M60 104 l7 5" stroke="#ffe066"/>
+  </g>
+  <circle cx="100" cy="38" r="12" fill="#e8306f"/>
+  <path d="M100 26 q6 -10 12 -6" fill="none" stroke="#3fbf8f" stroke-width="4" stroke-linecap="round"/>
+</svg>

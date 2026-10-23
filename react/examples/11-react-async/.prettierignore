@@ -1,0 +1,4 @@
+node_modules
+dist
+mockServiceWorker.js
+**/*.md

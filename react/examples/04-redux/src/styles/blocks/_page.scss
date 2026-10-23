@@ -1,0 +1,57 @@
+// Layout-блок: единственное место, где позиционируются крупные секции.
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &__header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  &__main {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px var(--gap) 48px;
+
+    @media (min-width: 960px) {
+      grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr);
+      align-items: start;
+    }
+  }
+
+  &__cart {
+    @media (min-width: 960px) {
+      position: sticky;
+      top: 96px;
+    }
+  }
+
+  // Вариант с маршрутизацией: на странице одна секция, колонок не нужно
+  &__main_single {
+    grid-template-columns: minmax(0, 1fr);
+
+    @media (min-width: 960px) {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+
+  &__nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--gap) 12px;
+  }
+
+  &__progress {
+    padding: 4px var(--gap);
+    background: var(--color-lemon-soft);
+    font-size: 14px;
+    text-align: center;
+  }
+}

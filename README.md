@@ -5,6 +5,7 @@
 - [Алгоритмы и структуры данных](algorithms/README.md)
 - [Математика](mathematics/README.md)
 - [TypeScript](typescript/README.md)
+- [React](react/README.md)
 
 ## Подробное содержание
 
@@ -47,3 +48,13 @@
 17. [Типизация Redux](typescript/docs/redux.md)
 18. [Сборка и производительность](typescript/docs/build-and-performance.md)
 19. [Тестирование и качество кода](typescript/docs/testing-and-code-quality.md)
+
+### [React](react/README.md)
+
+1. [Основы React](react/docs/sprint-1/README.md)
+2. [Управление состоянием](react/docs/sprint-2/README.md)
+3. [Маршрутизация и безопасность](react/docs/sprint-3/README.md)
+4. [TypeScript в React](react/docs/sprint-4/README.md)
+5. [WebSockets](react/docs/sprint-5/README.md)
+6. [Тестирование](react/docs/sprint-6/README.md)
+7. [Drag and Drop и анимации](react/docs/sprint-7/README.md)

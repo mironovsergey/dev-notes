@@ -1,0 +1,14 @@
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: var(--gap);
+
+  &__empty {
+    grid-column: 1 / -1;
+    padding: 32px 24px;
+    border-radius: var(--radius);
+    background: rgb(255 255 255 / 55%);
+    color: var(--color-muted);
+    text-align: center;
+  }
+}
